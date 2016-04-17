@@ -34,6 +34,11 @@ angular
         controller: 'MenuCtrl',
         controllerAs: 'menu'
       })
+      .when('/project', {
+        templateUrl: 'views/project.html',
+        controller: 'ProjectCtrl',
+        controllerAs: 'project'
+      })
       .otherwise({
         redirectTo: '/'
       });

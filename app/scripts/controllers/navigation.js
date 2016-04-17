@@ -8,10 +8,8 @@
  * Controller of the webApp
  */
 angular.module('webApp')
-  .controller('NavigationCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('NavigationCtrl', function ($anchorScroll) {
+
+      $anchorScroll();
+      alert('asdf');
   });

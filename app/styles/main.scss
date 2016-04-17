@@ -3,8 +3,10 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import "colors";
 @import "components/header";
 @import "components/navigation";
+@import "components/project";
 
 html, body {
     margin: 0;

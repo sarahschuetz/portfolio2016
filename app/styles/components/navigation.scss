@@ -1,9 +1,43 @@
+$arrow-size: 100px;
+$arraw-margin: 50px;
+
 .jumbotron.pf-navigation {
     width: 100vw;
     height: 100vh;
     background-image: url("../../images/parzival.jpg");
     background-size: cover;
     position: relative;
-    top: -$header-height;
     z-index: 1;
+
+    .pf-left, .pf-right, .pf-down {
+        position: relative;
+
+        span {
+            font-size: $arrow-size;
+            color: $navigation-color;
+        }
+    }
+
+    .pf-left {
+        float: left;
+        top: 50vh;
+        left: $arraw-margin;
+        margin-top: -$header-height - ($arrow-size / 2);
+    }
+
+    .pf-right {
+        float: right;
+        top: 50vh;
+        right: $arraw-margin;
+        margin-top: -$header-height - ($arrow-size / 2);
+    }
+
+    .pf-down {
+
+        top: 100vh;
+        left: 50vw;
+        margin-top: -$header-height - $arrow-size - $arraw-margin;
+        margin-left: -$arrow-size / 2;
+    }
+
 }
