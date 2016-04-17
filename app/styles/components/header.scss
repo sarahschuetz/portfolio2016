@@ -1,0 +1,9 @@
+$header-height: 50px;
+
+.header {
+    width: 100vw;
+    height: $header-height;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: relative;
+    z-index: 10;
+}

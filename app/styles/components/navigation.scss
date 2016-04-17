@@ -1,0 +1,9 @@
+.jumbotron.pf-navigation {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../images/parzival.jpg");
+    background-size: cover;
+    position: relative;
+    top: -$header-height;
+    z-index: 1;
+}

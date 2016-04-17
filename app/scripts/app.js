@@ -29,6 +29,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/menu', {
+        templateUrl: 'views/menu.html',
+        controller: 'MenuCtrl',
+        controllerAs: 'menu'
+      })
       .otherwise({
         redirectTo: '/'
       });
